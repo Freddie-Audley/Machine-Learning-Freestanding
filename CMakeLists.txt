@@ -25,3 +25,4 @@ set_target_properties(main PROPERTIES LINK_FLAGS "-nostdlib")
 
 # Testing
 enable_testing()
+add_test(NAME RunMain COMMAND main)
