@@ -17,7 +17,7 @@ target_link_libraries(main PRIVATE slib) #LinearAlgebra NeuralNetwork)
 # Freestanding flags
 target_compile_options(main PRIVATE
         -ffreestanding
-        -fno-builting
+        -fno-builtin
         -no-pie
 )
 target_link_options(main PRIVATE
