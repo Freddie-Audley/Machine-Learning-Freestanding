@@ -1,6 +1,6 @@
-#include "../../../../include/slib/string.h"
+#include "slib/string.h"
 
-long strlen(const char* str)
+long string_length(const char* str)
 {
     int i = 0;
     while (str[i]) i++;     // Increment i until a null character is reached
