@@ -1,5 +1,5 @@
 file(GLOB_RECURSE LINEAR_ALGEBRA_SOURCES
-        "${CMAKE_CURRENT_SOURCE_DIR}/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/*/*.c"
 )
 
 #add_library(LinearAlgebra STATIC ${LINEAR_ALGEBRA_SOURCES})

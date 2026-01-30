@@ -1,6 +1,6 @@
 file(GLOB_RECURSE SLIB_SOURCES
-        "${CMAKE_CURRENT_SOURCE_DIR}/*.c"
-        "${CMAKE_CURRENT_SOURCE_DIR}/*.s"
+        "${CMAKE_CURRENT_SOURCE_DIR}/*/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/*/*.s"
 )
 
 add_library(slib STATIC ${SLIB_SOURCES})
