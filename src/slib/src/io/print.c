@@ -1,12 +1,10 @@
 #include "slib/io.h"
 #include "slib/string.h"
+#include "slib/definitions.h"
 
-
-typedef long ssize_t;
 
 extern ssize_t write(int fileDescriptor, const char* buffer, long count);
 
-void print(const char* output)
-{
+void print(const char* output) {
     write(1, output, string_length(output));
 }
