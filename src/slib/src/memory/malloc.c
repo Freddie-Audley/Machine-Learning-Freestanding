@@ -1,4 +1,11 @@
 #include "slib/definitions.h"
+#include "slib/memory.h"
+
+#define PROT_READ 0x1
+#define PROT_WRITE 0x2
+#define MAP_PRIVATE 0x2
+#define MAP_ANONYMOUS 0x20
+#define MAP_FAILED ((void*)-1)
 
 #define BLOCK_DATA_SIZE 20
 #define align(x) ((((x - 1) >> 2) << 2) + 4)
@@ -37,4 +44,23 @@ void split_block(block* block_arg, size_t size) {
     if (new_block -> next) {
         new_block -> next -> prev = new_block;
     }
+}
+
+
+block* extend_heap(block* end, size_t size) {
+    block* new_block = mmap(NULL, BLOCK_DATA_SIZE + size, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);
+    if (new_block == MAP_FAILED) {
+        return NULL;
+    }
+
+    new_block -> size = size;
+    new_block -> free = 0;
+    new_block -> next = NULL;
+    new_block -> prev = end;
+
+    if (end) {
+        end -> next = new_block;
+    }
+
+    return new_block;
 }
