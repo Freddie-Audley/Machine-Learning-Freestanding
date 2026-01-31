@@ -5,11 +5,11 @@
 
 void* head = NULL;
 
-typedef struct {
+typedef struct block_struct {
     int free;
     size_t size;
-    block* next;
-    block* prev;
+    struct block_struct* next;
+    struct block_struct* prev;
     void* ptr;
     char data[];
 } block;
