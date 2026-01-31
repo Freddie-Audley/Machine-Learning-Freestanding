@@ -180,6 +180,38 @@ src/maths/sqrt.s.o:
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o
 .PHONY : src/maths/sqrt.s.o
 
+src/memory/malloc.o: src/memory/malloc.c.o
+.PHONY : src/memory/malloc.o
+
+# target to build an object file
+src/memory/malloc.c.o:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o
+.PHONY : src/memory/malloc.c.o
+
+src/memory/malloc.i: src/memory/malloc.c.i
+.PHONY : src/memory/malloc.i
+
+# target to preprocess a source file
+src/memory/malloc.c.i:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.i
+.PHONY : src/memory/malloc.c.i
+
+src/memory/malloc.s: src/memory/malloc.c.s
+.PHONY : src/memory/malloc.s
+
+# target to generate assembly for a file
+src/memory/malloc.c.s:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.s
+.PHONY : src/memory/malloc.c.s
+
+src/memory/mmap.o: src/memory/mmap.s.o
+.PHONY : src/memory/mmap.o
+
+# target to build an object file
+src/memory/mmap.s.o:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o
+.PHONY : src/memory/mmap.s.o
+
 src/runtime/start.o: src/runtime/start.s.o
 .PHONY : src/runtime/start.o
 
@@ -227,6 +259,10 @@ help:
 	@echo "... src/io/print.s"
 	@echo "... src/io/write.o"
 	@echo "... src/maths/sqrt.o"
+	@echo "... src/memory/malloc.o"
+	@echo "... src/memory/malloc.i"
+	@echo "... src/memory/malloc.s"
+	@echo "... src/memory/mmap.o"
 	@echo "... src/runtime/start.o"
 	@echo "... src/string/string_length.o"
 	@echo "... src/string/string_length.i"

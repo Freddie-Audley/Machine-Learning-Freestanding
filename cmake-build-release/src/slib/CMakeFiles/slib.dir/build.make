@@ -112,9 +112,36 @@ src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/slib.dir/src/maths/sqrt.s.s"
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/maths/sqrt.s -o CMakeFiles/slib.dir/src/maths/sqrt.s.s
 
+src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o: src/slib/CMakeFiles/slib.dir/flags.make
+src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c
+src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o: src/slib/CMakeFiles/slib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o -MF CMakeFiles/slib.dir/src/memory/malloc.c.o.d -o CMakeFiles/slib.dir/src/memory/malloc.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c
+
+src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/slib.dir/src/memory/malloc.c.i"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c > CMakeFiles/slib.dir/src/memory/malloc.c.i
+
+src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/slib.dir/src/memory/malloc.c.s"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c -o CMakeFiles/slib.dir/src/memory/malloc.c.s
+
+src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o: src/slib/CMakeFiles/slib.dir/flags.make
+src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building ASM object src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/slib.dir/src/memory/mmap.s.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s
+
+src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/slib.dir/src/memory/mmap.s.i"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s > CMakeFiles/slib.dir/src/memory/mmap.s.i
+
+src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/slib.dir/src/memory/mmap.s.s"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s -o CMakeFiles/slib.dir/src/memory/mmap.s.s
+
 src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o: src/slib/CMakeFiles/slib.dir/flags.make
 src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/runtime/start.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building ASM object src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o"
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/slib.dir/src/runtime/start.s.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/runtime/start.s
 
 src/slib/CMakeFiles/slib.dir/src/runtime/start.s.i: cmake_force
@@ -128,7 +155,7 @@ src/slib/CMakeFiles/slib.dir/src/runtime/start.s.s: cmake_force
 src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o: src/slib/CMakeFiles/slib.dir/flags.make
 src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/string/string_length.c
 src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o: src/slib/CMakeFiles/slib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o"
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o -MF CMakeFiles/slib.dir/src/string/string_length.c.o.d -o CMakeFiles/slib.dir/src/string/string_length.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/string/string_length.c
 
 src/slib/CMakeFiles/slib.dir/src/string/string_length.c.i: cmake_force
@@ -144,6 +171,8 @@ slib_OBJECTS = \
 "CMakeFiles/slib.dir/src/io/print.c.o" \
 "CMakeFiles/slib.dir/src/io/write.s.o" \
 "CMakeFiles/slib.dir/src/maths/sqrt.s.o" \
+"CMakeFiles/slib.dir/src/memory/malloc.c.o" \
+"CMakeFiles/slib.dir/src/memory/mmap.s.o" \
 "CMakeFiles/slib.dir/src/runtime/start.s.o" \
 "CMakeFiles/slib.dir/src/string/string_length.c.o"
 
@@ -153,11 +182,13 @@ slib_EXTERNAL_OBJECTS =
 src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/src/io/print.c.o
 src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/src/io/write.s.o
 src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o
+src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o
+src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o
 src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o
 src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o
 src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/build.make
 src/slib/libslib.a: src/slib/CMakeFiles/slib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libslib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libslib.a"
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && $(CMAKE_COMMAND) -P CMakeFiles/slib.dir/cmake_clean_target.cmake
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slib.dir/link.txt --verbose=$(VERBOSE)
 

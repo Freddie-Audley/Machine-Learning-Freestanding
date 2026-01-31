@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_ASM
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/write.s" "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/slib.dir/src/io/write.s.o"
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/maths/sqrt.s" "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o"
+  "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s" "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o"
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/runtime/start.s" "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
@@ -22,6 +23,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/print.c" "src/slib/CMakeFiles/slib.dir/src/io/print.c.o" "gcc" "src/slib/CMakeFiles/slib.dir/src/io/print.c.o.d"
+  "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c" "src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o" "gcc" "src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o.d"
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/string/string_length.c" "src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o" "gcc" "src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o.d"
   )
 
