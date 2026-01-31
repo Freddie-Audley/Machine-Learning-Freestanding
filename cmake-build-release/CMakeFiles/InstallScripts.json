@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/cmake_install.cmake",
+		"/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

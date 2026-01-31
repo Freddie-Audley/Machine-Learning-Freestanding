@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/write.s
+
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/maths/sqrt.s
+
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/runtime/start.s
+

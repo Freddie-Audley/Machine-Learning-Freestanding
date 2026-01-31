@@ -1,0 +1,8 @@
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/CMakeFiles/main.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/CMakeFiles/test.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/slib.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/test.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/edit_cache.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/rebuild_cache.dir
