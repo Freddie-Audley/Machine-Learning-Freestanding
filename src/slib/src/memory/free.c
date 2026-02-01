@@ -2,40 +2,40 @@
 #include "malloc.c"
 
 
-block* merge_blocks(block* block_arg) {
-    if (block_arg -> next && block_arg -> next -> free) {
-        block_arg -> size += BLOCK_HEADER_SIZE + block_arg -> next -> size;
-        block_arg -> next = block_arg -> next -> next;
+Block* merge_blocks(Block* block) {
+    if (block -> next && block -> next -> free) {
+        block -> size += BLOCK_HEADER_SIZE + block -> next -> size;
+        block -> next = block -> next -> next;
     }
 
-    if (block_arg -> next) {
-        block_arg -> next -> prev = block_arg;
+    if (block -> next) {
+        block -> next -> prev = block;
     }
 
-    return block_arg;
+    return block;
 }
 
 
 void free(void* ptr) {
     if (!ptr) return;
 
-    block* block_to_free = (block*) ((char *) ptr - BLOCK_HEADER_SIZE);
-    block_to_free -> free = 1;
+    Block* block = (Block*) ((char *) ptr - BLOCK_HEADER_SIZE);
+    block -> free = 1;
 
-    if (block_to_free -> prev && block_to_free -> prev -> free) {
-        block_to_free = merge_blocks(block_to_free -> prev);
+    if (block -> prev && block -> prev -> free) {
+        block = merge_blocks(block -> prev);
     }
 
-    if (block_to_free -> next && block_to_free -> next -> free) {
-        block_to_free = merge_blocks(block_to_free);
+    if (block -> next && block -> next -> free) {
+        block = merge_blocks(block);
     }
 
-    if (!block_to_free -> next) {
-        if (block_to_free -> prev) {
-            block_to_free -> prev -> next = NULL;
+    if (!block -> next) {
+        if (block -> prev) {
+            block -> prev -> next = NULL;
         } else {
             head = NULL;
         }
-        munmap(block_to_free, BLOCK_HEADER_SIZE + block_to_free -> size);
+        munmap(block, BLOCK_HEADER_SIZE + block -> size);
     }
 }
