@@ -4,4 +4,18 @@ file(GLOB_RECURSE LINEAR_ALGEBRA_SOURCES
 
 add_library(LinearAlgebra STATIC ${LINEAR_ALGEBRA_SOURCES})
 target_include_directories(LinearAlgebra PUBLIC ${CMAKE_SOURCE_DIR}/include)
+
 target_link_libraries(LinearAlgebra PUBLIC slib)
+
+target_compile_options(slib PRIVATE
+        -ffreestanding
+        -fno-builtin
+        -fno-stack-protector
+        -no-pie
+)
+
+target_link_options(slib PRIVATE
+        -nostdlib
+        -static
+        -no-pie
+)

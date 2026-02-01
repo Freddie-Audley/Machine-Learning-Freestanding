@@ -4,10 +4,13 @@
 CMakeFiles/main.dir/src/main.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/main.c
 
 main: CMakeFiles/main.dir/src/main.c.o \
+  src/LinearAlgebra/libLinearAlgebra.a \
   src/slib/libslib.a
 
 
 src/slib/libslib.a:
+
+src/LinearAlgebra/libLinearAlgebra.a:
 
 CMakeFiles/main.dir/src/main.c.o:
 

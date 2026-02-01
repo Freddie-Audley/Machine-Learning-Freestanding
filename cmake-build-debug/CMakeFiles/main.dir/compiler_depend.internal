@@ -6,5 +6,6 @@ CMakeFiles/main.dir/src/main.c.o
 
 main
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/CMakeFiles/main.dir/src/main.c.o
+ /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/LinearAlgebra/libLinearAlgebra.a
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/libslib.a
 

@@ -63,7 +63,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 4,
@@ -109,6 +109,10 @@
 		{
 			"backtrace" : 3,
 			"id" : "slib::@ade86f367e9dc75ff8d8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "LinearAlgebra::@99fe6bc7135cf04982ba"
 		}
 	],
 	"id" : "main::@6890427a1f51a3e7e1df",
@@ -117,7 +121,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -139,6 +143,16 @@
 				"backtrace" : 2,
 				"fragment" : "-Wl,--strip-all",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/slib/libslib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/LinearAlgebra/libLinearAlgebra.a",
+				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,

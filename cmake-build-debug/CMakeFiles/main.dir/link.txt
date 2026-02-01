@@ -1,1 +1,1 @@
-/usr/bin/cc -g -nostdlib -static -no-pie -Wl,--strip-all -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/main.c.o -o main  src/slib/libslib.a
+/usr/bin/cc -g -nostdlib -static -no-pie -Wl,--strip-all -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/main.c.o -o main  src/slib/libslib.a src/LinearAlgebra/libLinearAlgebra.a src/slib/libslib.a

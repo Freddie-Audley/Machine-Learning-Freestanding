@@ -12,7 +12,7 @@ add_subdirectory(src/LinearAlgebra)
 # Main executable
 add_executable(main src/main.c)
 target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR}/include)
-target_link_libraries(main PRIVATE slib) #LinearAlgebra NeuralNetwork)
+target_link_libraries(main PRIVATE slib LinearAlgebra)#NeuralNetwork)
 
 # Freestanding flags
 target_compile_options(main PRIVATE
