@@ -1,2 +1,2 @@
 ### Current Progress
-slib: print, malloc, free
+slib: print, string_length, sqrt, malloc, free
