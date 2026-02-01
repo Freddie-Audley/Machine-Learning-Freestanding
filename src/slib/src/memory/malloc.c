@@ -7,36 +7,42 @@
 #define MAP_ANONYMOUS 0x20
 #define MAP_FAILED ((void*)-1)
 
-#define BLOCK_DATA_SIZE 20
-#define align(x) ((((x - 1) >> 2) << 2) + 4)
+#define BLOCK_HEADER_SIZE sizeof(block)
+#define ALIGNMENT 8
+#define align(x) (((x) + (ALIGNMENT - 1)) & ~(ALIGNMENT - 1))
 
-void* head = NULL;
-
-typedef struct block_struct {
+typedef struct block {
     int free;
     size_t size;
-    struct block_struct* next;
-    struct block_struct* prev;
+    struct block* next;
+    struct block* prev;
     void* ptr;
     char data[];
 } block;
 
+static block* head = NULL;
 
-void find_block(size_t size) {
+
+block* find_block(block** tail, size_t size) {
     block* current_block = head;
+    *tail = NULL;
+
     while (current_block && !(current_block -> free && current_block -> size >= size)) {
+        *tail = current_block;
         current_block = current_block -> next;
     }
+
+    return current_block;
 }
 
 
 void split_block(block* block_arg, size_t size) {
     block* new_block = (block*) (block_arg -> data + size);
     new_block -> free = 1;
-    new_block -> size = block_arg -> size - size - BLOCK_DATA_SIZE;
+    new_block -> size = block_arg -> size - size - BLOCK_HEADER_SIZE;
     new_block -> next = block_arg -> next;
     new_block -> prev = block_arg;
-    new_block -> ptr = block_arg -> data;
+    new_block -> ptr = new_block -> data;
 
     block_arg -> next = new_block;
     block_arg -> size = size;
@@ -47,8 +53,8 @@ void split_block(block* block_arg, size_t size) {
 }
 
 
-block* extend_heap(block* end, size_t size) {
-    block* new_block = mmap(NULL, BLOCK_DATA_SIZE + size, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);
+block* extend_heap(block* tail, size_t size) {
+    block* new_block = mmap(NULL, BLOCK_HEADER_SIZE + size, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);
     if (new_block == MAP_FAILED) {
         return NULL;
     }
@@ -56,11 +62,47 @@ block* extend_heap(block* end, size_t size) {
     new_block -> size = size;
     new_block -> free = 0;
     new_block -> next = NULL;
-    new_block -> prev = end;
+    new_block -> prev = tail;
+    new_block -> ptr = new_block -> data;
 
-    if (end) {
-        end -> next = new_block;
+    if (tail) {
+        tail -> next = new_block;
     }
 
     return new_block;
+}
+
+
+void* malloc(size_t size) {
+    if (size == 0) return NULL;
+
+    block* new_block;
+    size_t const aligned_size = align(size);
+
+    if (head) {
+        block* tail = head;
+        new_block = find_block(&tail, aligned_size);
+
+        if (new_block) {
+            if (new_block -> size - aligned_size >= BLOCK_HEADER_SIZE + ALIGNMENT) {
+                split_block(new_block, aligned_size);
+            }
+            new_block -> free = 0;
+
+        } else {
+            new_block = extend_heap(tail, aligned_size);
+            if (!new_block) {
+                return NULL;
+            }
+        }
+
+    } else {
+        new_block = extend_heap(NULL, aligned_size);
+        if (!new_block) {
+            return NULL;
+        }
+        head = new_block;
+    }
+
+    return new_block -> data;
 }

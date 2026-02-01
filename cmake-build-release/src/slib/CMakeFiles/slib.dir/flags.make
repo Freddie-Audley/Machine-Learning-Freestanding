@@ -7,11 +7,11 @@ ASM_DEFINES =
 
 ASM_INCLUDES = -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include
 
-ASM_FLAGS = -O3 -DNDEBUG
+ASM_FLAGS = -O3 -DNDEBUG -ffreestanding -fno-builtin -no-pie
 
 C_DEFINES = 
 
 C_INCLUDES = -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include
 
-C_FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
+C_FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -ffreestanding -fno-builtin -no-pie
 

@@ -4,5 +4,6 @@
 
 mmap:
     mov $9, %rax
+    mov %rcx, %r10
     syscall
     ret
