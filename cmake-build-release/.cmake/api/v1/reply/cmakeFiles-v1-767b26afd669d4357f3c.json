@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/4.1.2/CMakeSystem.cmake"
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,11 +20,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/4.1.2/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/4.1.2/CMakeASMCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeASMCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -163,12 +163,15 @@
 		},
 		{
 			"path" : "src/slib/CMakeLists.txt"
+		},
+		{
+			"path" : "src/LinearAlgebra/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug",
+		"build" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
 		"source" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding"
 	},
 	"version" : 

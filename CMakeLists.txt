@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 11)
 
 # Add library subdirectories
 add_subdirectory(src/slib)
-#add_subdirectory(src/LinearAlgebra)
+add_subdirectory(src/LinearAlgebra)
 #add_subdirectory(src/NeuralNetwork)
 
 # Main executable

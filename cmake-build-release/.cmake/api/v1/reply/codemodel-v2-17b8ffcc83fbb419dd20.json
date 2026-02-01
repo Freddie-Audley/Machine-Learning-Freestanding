@@ -8,9 +8,10 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -19,12 +20,12 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
 					"build" : "src/slib",
-					"jsonFile" : "directory-src.slib-Debug-ce64893d77e41dcc7ba3.json",
+					"jsonFile" : "directory-src.slib-Release-ce64893d77e41dcc7ba3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -34,40 +35,64 @@
 					"source" : "src/slib",
 					"targetIndexes" : 
 					[
-						1
+						2
+					]
+				},
+				{
+					"build" : "src/LinearAlgebra",
+					"jsonFile" : "directory-src.LinearAlgebra-Release-0ed51a9f22d18c4150de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/LinearAlgebra",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "Machine-Learning-Freestanding",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 2,
+					"id" : "LinearAlgebra::@99fe6bc7135cf04982ba",
+					"jsonFile" : "target-LinearAlgebra-Release-1f9ffe1b8e0e2bf1f566.json",
+					"name" : "LinearAlgebra",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-ca368746e51d3934f88c.json",
+					"jsonFile" : "target-main-Release-02b703f867dd4bcd9516.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "slib::@ade86f367e9dc75ff8d8",
-					"jsonFile" : "target-slib-Debug-be9ad32b4fdca5b9b886.json",
+					"jsonFile" : "target-slib-Release-fed7e69516b7429fb01f.json",
 					"name" : "slib",
 					"projectIndex" : 0
 				}
@@ -77,7 +102,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug",
+		"build" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
 		"source" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding"
 	},
 	"version" : 

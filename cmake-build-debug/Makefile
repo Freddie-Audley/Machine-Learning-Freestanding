@@ -152,6 +152,19 @@ slib/fast:
 	$(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/build
 .PHONY : slib/fast
 
+#=============================================================================
+# Target rules for targets named LinearAlgebra
+
+# Build rule for target.
+LinearAlgebra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinearAlgebra
+.PHONY : LinearAlgebra
+
+# fast build rule for target.
+LinearAlgebra/fast:
+	$(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build
+.PHONY : LinearAlgebra/fast
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -185,6 +198,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... LinearAlgebra"
 	@echo "... main"
 	@echo "... slib"
 	@echo "... src/main.o"

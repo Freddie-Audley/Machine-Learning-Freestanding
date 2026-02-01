@@ -6,3 +6,7 @@
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/test.dir
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/edit_cache.dir
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/slib/CMakeFiles/rebuild_cache.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/LinearAlgebra/CMakeFiles/test.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/LinearAlgebra/CMakeFiles/edit_cache.dir
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug/src/LinearAlgebra/CMakeFiles/rebuild_cache.dir

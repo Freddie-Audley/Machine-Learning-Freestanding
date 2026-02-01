@@ -1,7 +1,6 @@
 #pragma once
-#include "slib/definitions.h"
 
 typedef struct {
-    size_t size;
+    unsigned int size;
     double* data;
 } Vector;

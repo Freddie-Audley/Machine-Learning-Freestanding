@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.2/CMakeASMCompiler.cmake"
   "CMakeFiles/4.1.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.2/CMakeSystem.cmake"
+  "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/CMakeLists.txt"
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/CMakeLists.txt"
   "/opt/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeASMInformation.cmake"
   "/opt/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake"
@@ -51,10 +52,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/slib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/LinearAlgebra/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "src/slib/CMakeFiles/slib.dir/DependInfo.cmake"
+  "src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/DependInfo.cmake"
   )
