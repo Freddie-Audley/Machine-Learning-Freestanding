@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include
 
-C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -ffreestanding -fno-builtin -no-pie
+C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -ffreestanding -fno-builtin -fno-stack-protector -no-pie
 

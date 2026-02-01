@@ -9,6 +9,7 @@ target_include_directories(slib PUBLIC ${CMAKE_SOURCE_DIR}/include)
 target_compile_options(slib PRIVATE
     -ffreestanding
     -fno-builtin
+    -fno-stack-protector
     -no-pie
 )
 
