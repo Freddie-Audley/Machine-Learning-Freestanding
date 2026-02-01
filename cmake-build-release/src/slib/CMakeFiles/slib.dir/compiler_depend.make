@@ -6,6 +6,11 @@ src/slib/CMakeFiles/slib.dir/src/io/print.c.o: /home/freddie/CLionProjects/Machi
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/io.h \
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/string.h
 
+src/slib/CMakeFiles/slib.dir/src/memory/free.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/free.c \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/definitions.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/memory.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c
+
 src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c \
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/definitions.h \
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/memory.h
@@ -16,9 +21,11 @@ src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o: /home/freddie/CLionPr
 
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/string/string_length.c:
 
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c:
+
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/memory.h:
 
-/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c:
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/free.c:
 
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/string.h:
 

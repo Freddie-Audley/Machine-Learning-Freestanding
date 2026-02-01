@@ -180,6 +180,30 @@ src/maths/sqrt.s.o:
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o
 .PHONY : src/maths/sqrt.s.o
 
+src/memory/free.o: src/memory/free.c.o
+.PHONY : src/memory/free.o
+
+# target to build an object file
+src/memory/free.c.o:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/free.c.o
+.PHONY : src/memory/free.c.o
+
+src/memory/free.i: src/memory/free.c.i
+.PHONY : src/memory/free.i
+
+# target to preprocess a source file
+src/memory/free.c.i:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/free.c.i
+.PHONY : src/memory/free.c.i
+
+src/memory/free.s: src/memory/free.c.s
+.PHONY : src/memory/free.s
+
+# target to generate assembly for a file
+src/memory/free.c.s:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/free.c.s
+.PHONY : src/memory/free.c.s
+
 src/memory/malloc.o: src/memory/malloc.c.o
 .PHONY : src/memory/malloc.o
 
@@ -211,6 +235,14 @@ src/memory/mmap.o: src/memory/mmap.s.o
 src/memory/mmap.s.o:
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o
 .PHONY : src/memory/mmap.s.o
+
+src/memory/munmap.o: src/memory/munmap.s.o
+.PHONY : src/memory/munmap.o
+
+# target to build an object file
+src/memory/munmap.s.o:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/src/memory/munmap.s.o
+.PHONY : src/memory/munmap.s.o
 
 src/runtime/start.o: src/runtime/start.s.o
 .PHONY : src/runtime/start.o
@@ -259,10 +291,14 @@ help:
 	@echo "... src/io/print.s"
 	@echo "... src/io/write.o"
 	@echo "... src/maths/sqrt.o"
+	@echo "... src/memory/free.o"
+	@echo "... src/memory/free.i"
+	@echo "... src/memory/free.s"
 	@echo "... src/memory/malloc.o"
 	@echo "... src/memory/malloc.i"
 	@echo "... src/memory/malloc.s"
 	@echo "... src/memory/mmap.o"
+	@echo "... src/memory/munmap.o"
 	@echo "... src/runtime/start.o"
 	@echo "... src/string/string_length.o"
 	@echo "... src/string/string_length.i"

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libslib.a CMakeFiles/slib.dir/src/io/print.c.o CMakeFiles/slib.dir/src/io/write.s.o CMakeFiles/slib.dir/src/maths/sqrt.s.o CMakeFiles/slib.dir/src/memory/malloc.c.o CMakeFiles/slib.dir/src/memory/mmap.s.o CMakeFiles/slib.dir/src/runtime/start.s.o CMakeFiles/slib.dir/src/string/string_length.c.o
+/usr/bin/ar qc libslib.a CMakeFiles/slib.dir/src/io/print.c.o CMakeFiles/slib.dir/src/io/write.s.o CMakeFiles/slib.dir/src/maths/sqrt.s.o CMakeFiles/slib.dir/src/memory/free.c.o CMakeFiles/slib.dir/src/memory/malloc.c.o CMakeFiles/slib.dir/src/memory/mmap.s.o CMakeFiles/slib.dir/src/memory/munmap.s.o CMakeFiles/slib.dir/src/runtime/start.s.o CMakeFiles/slib.dir/src/string/string_length.c.o
 /usr/bin/ranlib libslib.a

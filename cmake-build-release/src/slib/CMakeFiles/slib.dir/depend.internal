@@ -7,5 +7,7 @@ src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/maths/sqrt.s
 src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s
+src/slib/CMakeFiles/slib.dir/src/memory/munmap.s.o
+ /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/munmap.s
 src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/runtime/start.s
