@@ -3,7 +3,7 @@
     .type mmap, @function
 
 mmap:
-    mov $9, %rax
     mov %rcx, %r10
+    mov $9, %rax
     syscall
     ret
