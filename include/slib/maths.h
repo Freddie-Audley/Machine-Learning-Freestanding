@@ -1,6 +1,3 @@
-#ifndef SLIB_MATHS_H
-#define SLIB_MATHS_H
+#pragma once
 
 extern double sqrt(double n);
-
-#endif

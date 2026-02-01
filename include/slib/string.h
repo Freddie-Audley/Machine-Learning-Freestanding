@@ -1,6 +1,3 @@
-#ifndef SLIB_STRING_H
-#define SLIB_STRING_H
+#pragma once
 
 long string_length(const char* str);
-
-#endif

@@ -1,6 +1,3 @@
-#ifndef IO_H
-#define IO_H
+#pragma once
 
 void print(const char* output);
-
-#endif
