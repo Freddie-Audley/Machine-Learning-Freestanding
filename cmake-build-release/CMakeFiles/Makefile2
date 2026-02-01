@@ -112,7 +112,7 @@ CMakeFiles/main.dir/all: src/slib/CMakeFiles/slib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -139,12 +139,12 @@ CMakeFiles/main.dir/clean:
 src/slib/CMakeFiles/slib.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12 "Built target slib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11 "Built target slib"
 .PHONY : src/slib/CMakeFiles/slib.dir/all
 
 # Build rule for subdir invocation for target.
 src/slib/CMakeFiles/slib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slib/CMakeFiles/slib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles 0
 .PHONY : src/slib/CMakeFiles/slib.dir/rule
@@ -156,7 +156,7 @@ slib: src/slib/CMakeFiles/slib.dir/rule
 # codegen rule for target.
 src/slib/CMakeFiles/slib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/slib/CMakeFiles/slib.dir/build.make src/slib/CMakeFiles/slib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12 "Finished codegen for target slib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11 "Finished codegen for target slib"
 .PHONY : src/slib/CMakeFiles/slib.dir/codegen
 
 # clean rule for target.

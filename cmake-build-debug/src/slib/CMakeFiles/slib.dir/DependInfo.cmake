@@ -24,7 +24,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/print.c" "src/slib/CMakeFiles/slib.dir/src/io/print.c.o" "gcc" "src/slib/CMakeFiles/slib.dir/src/io/print.c.o.d"
-  "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/free.c" "src/slib/CMakeFiles/slib.dir/src/memory/free.c.o" "gcc" "src/slib/CMakeFiles/slib.dir/src/memory/free.c.o.d"
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/malloc.c" "src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o" "gcc" "src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o.d"
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/string/string_length.c" "src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o" "gcc" "src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o.d"
   )

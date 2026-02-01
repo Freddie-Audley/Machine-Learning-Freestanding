@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/slib.dir/src/io/print.c.o.d"
   "CMakeFiles/slib.dir/src/io/write.s.o"
   "CMakeFiles/slib.dir/src/maths/sqrt.s.o"
-  "CMakeFiles/slib.dir/src/memory/free.c.o"
-  "CMakeFiles/slib.dir/src/memory/free.c.o.d"
   "CMakeFiles/slib.dir/src/memory/malloc.c.o"
   "CMakeFiles/slib.dir/src/memory/malloc.c.o.d"
   "CMakeFiles/slib.dir/src/memory/mmap.s.o"

@@ -7,16 +7,15 @@
 #define MAP_ANONYMOUS 0x20
 #define MAP_FAILED ((void*)-1)
 
-#define BLOCK_HEADER_SIZE sizeof(Block)
 #define ALIGNMENT 8
 #define align(x) (((x) + (ALIGNMENT - 1)) & ~(ALIGNMENT - 1))
+#define BLOCK_HEADER_SIZE align(sizeof(Block))
 
 typedef struct Block {
     int free;
     size_t size;
     struct Block* next;
     struct Block* prev;
-    void* ptr;
     char data[];
 } Block;
 
@@ -42,7 +41,6 @@ void split_block(Block* block, size_t size) {
     new_block -> size = block -> size - size - BLOCK_HEADER_SIZE;
     new_block -> next = block -> next;
     new_block -> prev = block;
-    new_block -> ptr = new_block -> data;
 
     block -> next = new_block;
     block -> size = size;
@@ -63,7 +61,6 @@ Block* extend_heap(Block* tail, size_t size) {
     new_block -> free = 0;
     new_block -> next = NULL;
     new_block -> prev = tail;
-    new_block -> ptr = new_block -> data;
 
     if (tail) {
         tail -> next = new_block;
@@ -105,4 +102,43 @@ void* malloc(size_t size) {
     }
 
     return new_block -> data;
+}
+
+
+Block* merge_blocks(Block* block) {
+    if (block -> next && block -> next -> free) {
+        block -> size += BLOCK_HEADER_SIZE + block -> next -> size;
+        block -> next = block -> next -> next;
+    }
+
+    if (block -> next) {
+        block -> next -> prev = block;
+    }
+
+    return block;
+}
+
+
+void free(void* ptr) {
+    if (!ptr) return;
+
+    Block* block = (Block*) ((char *) ptr - BLOCK_HEADER_SIZE);
+    block -> free = 1;
+
+    if (block -> prev && block -> prev -> free) {
+        block = merge_blocks(block -> prev);
+    }
+
+    if (block -> next && block -> next -> free) {
+        block = merge_blocks(block);
+    }
+
+    if (!block -> next) {
+        if (block -> prev) {
+            block -> prev -> next = NULL;
+        } else {
+            head = NULL;
+        }
+        munmap(block, BLOCK_HEADER_SIZE + block -> size);
+    }
 }
