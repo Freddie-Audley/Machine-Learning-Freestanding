@@ -1,6 +1,5 @@
 #include "slib/slib.h"
 #include "LinearAlgebra/matrix.h"
-#include "LinearAlgebra/vector.h"
 
 
 Matrix matrix_create(unsigned int rows, unsigned int cols) {
