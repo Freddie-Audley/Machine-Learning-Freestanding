@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o CMakeFiles/main.dir/src/main.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/main.c",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/main.c",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles/main.dir/src/main.c.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/io/print.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/print.c",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/print.c",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/io/print.c.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/io/write.s.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/write.s",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/io/write.s",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/io/write.s.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/maths/sqrt.s",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/maths/sqrt.s",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/memory/allocate_memory.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/allocate_memory.c",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/allocate_memory.c",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/memory/allocate_memory.c.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/mmap.s",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/memory/munmap.s.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/munmap.s",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/memory/munmap.s",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/memory/munmap.s.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/runtime/start.s",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/runtime/start.s",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -ffreestanding -fno-builtin -fno-stack-protector -no-pie -o src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/string/string_length.c",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/slib/src/string/string_length.c",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -o src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/matrix.c",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/matrix.c",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -o src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector-matrix.c",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector-matrix.c",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o"
+},
+{
+  "directory": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+  "command": "/usr/bin/cc -I/home/freddie/CLionProjects/Machine-Learning-Freestanding/include -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always -o src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector.c",
+  "file": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector.c",
+  "output": "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o"
+}
+]

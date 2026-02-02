@@ -1,0 +1,19 @@
+# ninja log v6
+28	174	1770045920598881829	src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o	bbc3d4a32fd74fac
+140	217	1770045920710881830	src/slib/libslib.a	e30104b489b323ee
+3	140	1770045920573881828	src/slib/CMakeFiles/slib.dir/src/memory/malloc.c.o	2761f3582016ae83
+11	27	1770045920582496234	src/slib/CMakeFiles/slib.dir/src/runtime/start.s.o	44eb715b159366d3
+18	183	1770045920588881828	src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o	1da9f4e10b72c2ea
+2	11	1770045920572881828	src/slib/CMakeFiles/slib.dir/src/io/write.s.o	e72bc7dde9b62e4f
+22	110	1770045920592881829	src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o	8db43ec837f37c77
+268	278	1770045920838881832	main	5598c24427400e24
+217	268	1770045920787881831	src/LinearAlgebra/libLinearAlgebra.a	95de23a92f52b33d
+2	18	1770045920573789211	src/slib/CMakeFiles/slib.dir/src/maths/sqrt.s.o	7e9bee7fb9f19561
+1	59	1770045920571881828	src/slib/CMakeFiles/slib.dir/src/io/print.c.o	6b65682ede28d901
+4	14	1770045920574881828	src/slib/CMakeFiles/slib.dir/src/memory/mmap.s.o	212f927d35732067
+14	76	1770045920584881828	src/slib/CMakeFiles/slib.dir/src/string/string_length.c.o	b88f5484e32a4fa3
+5	22	1770045920575881828	src/slib/CMakeFiles/slib.dir/src/memory/munmap.s.o	af557b31d23fa187
+59	116	1770045920629881829	CMakeFiles/main.dir/src/main.c.o	a441d87998331a98
+1	78	1770045964706882381	src/slib/CMakeFiles/slib.dir/src/memory/allocate_memory.c.o	93e4c8b0cc5b2166
+78	128	1770045964783882382	src/slib/libslib.a	5c8479167ce27400
+129	139	1770045964834882382	main	5598c24427400e24

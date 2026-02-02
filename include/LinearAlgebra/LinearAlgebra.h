@@ -1,6 +1,6 @@
 #pragma once
 
-#include "vector.h"
-#include "matrix.h"
+#include "LinearAlgebra/vector.h"
+#include "LinearAlgebra/matrix.h"
 
 Vector apply_matrix(Matrix* matrix, Vector* vector);

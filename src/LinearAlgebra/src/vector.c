@@ -5,7 +5,7 @@
 Vector vector_create(unsigned int size) {
     Vector vector;
     vector.size = size;
-    vector.data = malloc(sizeof(double) * size);
+    vector.data = allocate_memory(sizeof(double) * size);
     return vector;
 }
 

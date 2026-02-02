@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/slib",
+					"jsonFile" : "directory-src.slib-Release-b0759b0eedaa921180c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/slib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/LinearAlgebra",
+					"jsonFile" : "directory-src.LinearAlgebra-Release-01779191a9f3d237cce2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/LinearAlgebra",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Machine-Learning-Freestanding",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "LinearAlgebra::@99fe6bc7135cf04982ba",
+					"jsonFile" : "target-LinearAlgebra-Release-cb32de66d589a074d097.json",
+					"name" : "LinearAlgebra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Release-8d8fabbf2ea85c4b030f.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "slib::@ade86f367e9dc75ff8d8",
+					"jsonFile" : "target-slib-Release-2d33e928672c2e2add40.json",
+					"name" : "slib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
+		"source" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

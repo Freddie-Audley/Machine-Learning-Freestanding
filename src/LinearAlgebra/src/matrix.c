@@ -6,7 +6,7 @@ Matrix matrix_create(unsigned int rows, unsigned int cols) {
     Matrix matrix;
     matrix.rows = rows;
     matrix.cols = cols;
-    matrix.data = malloc(rows * cols * sizeof(double));
+    matrix.data = allocate_memory(rows * cols * sizeof(double));
 
     if (!matrix.data) {
         matrix.rows = matrix.cols = 0;
