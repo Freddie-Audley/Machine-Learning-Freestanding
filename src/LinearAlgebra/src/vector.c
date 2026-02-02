@@ -18,7 +18,7 @@ void vector_free(Vector* vector) {
 }
 
 
-Vector vector_scalar_multiply(Vector* vector, double scalar) {
+Vector vector_scalar_multiply(double scalar, Vector* vector) {
     Vector result = vector_create(vector -> size);
 
     for (int i = 0; i < vector -> size; i++) {

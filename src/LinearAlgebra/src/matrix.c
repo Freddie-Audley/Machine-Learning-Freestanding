@@ -25,7 +25,7 @@ void matrix_free(Matrix* matrix) {
 }
 
 
-Matrix matrix_scalar_multiply(Matrix* matrix, double scalar) {
+Matrix matrix_scalar_multiply(double scalar, Matrix* matrix) {
     Matrix result = matrix_create(matrix -> rows, matrix -> cols);
 
     for (int i = 0; i < matrix -> rows; i++) {

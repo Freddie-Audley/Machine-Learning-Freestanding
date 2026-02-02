@@ -8,5 +8,5 @@ typedef struct {
 Vector vector_create(unsigned int size);
 void vector_free(Vector* vector);
 
-Vector vector_scalar_multiply(Vector* vector, double scalar);
+Vector vector_scalar_multiply(double scalar, Vector* vector);
 Vector vector_add(Vector* lhs, Vector* rhs);
