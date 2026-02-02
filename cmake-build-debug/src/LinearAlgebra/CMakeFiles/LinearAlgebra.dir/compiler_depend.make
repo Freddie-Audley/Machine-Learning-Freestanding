@@ -3,6 +3,7 @@
 
 src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/matrix.c \
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/matrix.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/vector.h \
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/definitions.h \
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/io.h \
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/maths.h \
@@ -11,6 +12,18 @@ src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o: /home/freddie/CLi
   /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/string.h \
   /usr/include/stdc-predef.h
 
+src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector.c \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/vector.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/definitions.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/io.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/maths.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/memory.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/slib.h \
+  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/string.h \
+  /usr/include/stdc-predef.h
+
+
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector.c:
 
 /usr/include/stdc-predef.h:
 
@@ -25,6 +38,8 @@ src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o: /home/freddie/CLi
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/definitions.h:
 
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/memory.h:
+
+/home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/vector.h:
 
 /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/matrix.h:
 

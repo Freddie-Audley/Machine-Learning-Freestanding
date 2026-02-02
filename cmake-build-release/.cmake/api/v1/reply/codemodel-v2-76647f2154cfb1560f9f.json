@@ -11,7 +11,7 @@
 						1,
 						2
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -25,7 +25,7 @@
 				},
 				{
 					"build" : "src/slib",
-					"jsonFile" : "directory-src.slib-Debug-ce64893d77e41dcc7ba3.json",
+					"jsonFile" : "directory-src.slib-Release-ce64893d77e41dcc7ba3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -40,7 +40,7 @@
 				},
 				{
 					"build" : "src/LinearAlgebra",
-					"jsonFile" : "directory-src.LinearAlgebra-Debug-0ed51a9f22d18c4150de.json",
+					"jsonFile" : "directory-src.LinearAlgebra-Release-0ed51a9f22d18c4150de.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -54,7 +54,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -78,21 +78,21 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "LinearAlgebra::@99fe6bc7135cf04982ba",
-					"jsonFile" : "target-LinearAlgebra-Debug-b9df69031cdd50864601.json",
+					"jsonFile" : "target-LinearAlgebra-Release-32ab725748f561ec6c8a.json",
 					"name" : "LinearAlgebra",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-fed4941cde3a0c2b7f81.json",
+					"jsonFile" : "target-main-Release-95c6448b8bfc8ab8fc1e.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "slib::@ade86f367e9dc75ff8d8",
-					"jsonFile" : "target-slib-Debug-be9ad32b4fdca5b9b886.json",
+					"jsonFile" : "target-slib-Release-fed7e69516b7429fb01f.json",
 					"name" : "slib",
 					"projectIndex" : 0
 				}
@@ -102,7 +102,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug",
+		"build" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release",
 		"source" : "/home/freddie/CLionProjects/Machine-Learning-Freestanding"
 	},
 	"version" : 

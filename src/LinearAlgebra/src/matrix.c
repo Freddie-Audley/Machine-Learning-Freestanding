@@ -1,5 +1,6 @@
 #include "slib/slib.h"
 #include "LinearAlgebra/matrix.h"
+#include "LinearAlgebra/vector.h"
 
 
 Matrix matrix_create(unsigned int rows, unsigned int cols) {
@@ -25,12 +26,26 @@ void matrix_free(Matrix* matrix) {
 }
 
 
+Matrix matrix_scalar_multiply(Matrix* matrix, double scalar) {
+    Matrix result = matrix_create(matrix -> rows, matrix -> cols);
+
+    for (int i = 0; i < matrix -> rows; i++) {
+        for (int j = 0; j < matrix -> cols; j++) {
+            unsigned const int index = i * matrix -> cols + j;
+            result.data[index] = scalar * matrix -> data[index];
+        }
+    }
+
+    return result;
+}
+
+
 Matrix matrix_add(Matrix* lhs, Matrix* rhs) {
     Matrix result = matrix_create(lhs -> rows, lhs -> cols);
 
     for (int i = 0; i < lhs -> rows; i++) {
         for (int j = 0; j < lhs -> cols; j++) {
-            unsigned int index = i * lhs -> cols + j;
+            unsigned const int index = i * lhs -> cols + j;
             result.data[index] = lhs -> data[index] + rhs -> data[index];
         }
     }

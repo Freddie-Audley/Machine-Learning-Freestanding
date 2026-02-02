@@ -7,4 +7,5 @@ src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o: \
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/maths.h \
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/memory.h \
  /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/slib/string.h \
- /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/matrix.h
+ /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/matrix.h \
+ /home/freddie/CLionProjects/Machine-Learning-Freestanding/include/LinearAlgebra/vector.h

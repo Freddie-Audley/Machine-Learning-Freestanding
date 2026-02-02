@@ -164,6 +164,30 @@ src/matrix.c.s:
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.s
 .PHONY : src/matrix.c.s
 
+src/vector.o: src/vector.c.o
+.PHONY : src/vector.o
+
+# target to build an object file
+src/vector.c.o:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o
+.PHONY : src/vector.c.o
+
+src/vector.i: src/vector.c.i
+.PHONY : src/vector.i
+
+# target to preprocess a source file
+src/vector.c.i:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.i
+.PHONY : src/vector.c.i
+
+src/vector.s: src/vector.c.s
+.PHONY : src/vector.s
+
+# target to generate assembly for a file
+src/vector.c.s:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.s
+.PHONY : src/vector.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -177,6 +201,9 @@ help:
 	@echo "... src/matrix.o"
 	@echo "... src/matrix.i"
 	@echo "... src/matrix.s"
+	@echo "... src/vector.o"
+	@echo "... src/vector.i"
+	@echo "... src/vector.s"
 .PHONY : help
 
 
