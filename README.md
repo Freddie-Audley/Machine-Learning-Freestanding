@@ -1,6 +1,6 @@
 ## Completed
 ### slib
-print, string_length, sqrt, malloc, free
+print, sqrt, memory allocation and deallocation
 
 ## Working on
 ### LinearAlgebra
