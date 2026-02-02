@@ -164,6 +164,30 @@ src/matrix.c.s:
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.s
 .PHONY : src/matrix.c.s
 
+src/vector-matrix.o: src/vector-matrix.c.o
+.PHONY : src/vector-matrix.o
+
+# target to build an object file
+src/vector-matrix.c.o:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o
+.PHONY : src/vector-matrix.c.o
+
+src/vector-matrix.i: src/vector-matrix.c.i
+.PHONY : src/vector-matrix.i
+
+# target to preprocess a source file
+src/vector-matrix.c.i:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.i
+.PHONY : src/vector-matrix.c.i
+
+src/vector-matrix.s: src/vector-matrix.c.s
+.PHONY : src/vector-matrix.s
+
+# target to generate assembly for a file
+src/vector-matrix.c.s:
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.s
+.PHONY : src/vector-matrix.c.s
+
 src/vector.o: src/vector.c.o
 .PHONY : src/vector.o
 
@@ -201,6 +225,9 @@ help:
 	@echo "... src/matrix.o"
 	@echo "... src/matrix.i"
 	@echo "... src/matrix.s"
+	@echo "... src/vector-matrix.o"
+	@echo "... src/vector-matrix.i"
+	@echo "... src/vector-matrix.s"
 	@echo "... src/vector.o"
 	@echo "... src/vector.i"
 	@echo "... src/vector.s"

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/matrix.c" "src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o" "gcc" "src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o.d"
+  "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector-matrix.c" "src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o" "gcc" "src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o.d"
   "/home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector.c" "src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o" "gcc" "src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o.d"
   )
 

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libLinearAlgebra.a CMakeFiles/LinearAlgebra.dir/src/matrix.c.o CMakeFiles/LinearAlgebra.dir/src/vector.c.o
+/usr/bin/ar qc libLinearAlgebra.a CMakeFiles/LinearAlgebra.dir/src/matrix.c.o "CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o" CMakeFiles/LinearAlgebra.dir/src/vector.c.o
 /usr/bin/ranlib libLinearAlgebra.a

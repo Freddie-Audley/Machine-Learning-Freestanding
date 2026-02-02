@@ -86,10 +86,24 @@ src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LinearAlgebra.dir/src/matrix.c.s"
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/matrix.c -o CMakeFiles/LinearAlgebra.dir/src/matrix.c.s
 
+src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/flags.make
+src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector-matrix.c
+src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o -MF CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o.d -o CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector-matrix.c
+
+src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.i"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector-matrix.c > CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.i
+
+src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.s"
+	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector-matrix.c -o CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.s
+
 src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/flags.make
 src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o: /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector.c
 src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o"
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o -MF CMakeFiles/LinearAlgebra.dir/src/vector.c.o.d -o CMakeFiles/LinearAlgebra.dir/src/vector.c.o -c /home/freddie/CLionProjects/Machine-Learning-Freestanding/src/LinearAlgebra/src/vector.c
 
 src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.i: cmake_force
@@ -103,16 +117,18 @@ src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.s: cmake_force
 # Object files for target LinearAlgebra
 LinearAlgebra_OBJECTS = \
 "CMakeFiles/LinearAlgebra.dir/src/matrix.c.o" \
+"CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o" \
 "CMakeFiles/LinearAlgebra.dir/src/vector.c.o"
 
 # External object files for target LinearAlgebra
 LinearAlgebra_EXTERNAL_OBJECTS =
 
 src/LinearAlgebra/libLinearAlgebra.a: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/matrix.c.o
+src/LinearAlgebra/libLinearAlgebra.a: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector-matrix.c.o
 src/LinearAlgebra/libLinearAlgebra.a: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/src/vector.c.o
 src/LinearAlgebra/libLinearAlgebra.a: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/build.make
 src/LinearAlgebra/libLinearAlgebra.a: src/LinearAlgebra/CMakeFiles/LinearAlgebra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libLinearAlgebra.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libLinearAlgebra.a"
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra && $(CMAKE_COMMAND) -P CMakeFiles/LinearAlgebra.dir/cmake_clean_target.cmake
 	cd /home/freddie/CLionProjects/Machine-Learning-Freestanding/cmake-build-release/src/LinearAlgebra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinearAlgebra.dir/link.txt --verbose=$(VERBOSE)
 
